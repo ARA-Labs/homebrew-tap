@@ -1,17 +1,17 @@
 class Ara < Formula
   desc "Command-line runtime for the ARA viewer: validate and serve Agent-Native Research Artifacts. Installs the `ara` binary."
   homepage "https://github.com/ARA-Labs/ara-cli"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ARA-Labs/ara-cli/releases/download/v0.1.5/ara-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "47b8dbfc419ee607c3a5cee0131ab2efcdca58693544e9da5f2edde7964359ee"
+      url "https://github.com/ARA-Labs/ara-cli/releases/download/v0.1.6/ara-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "48e6bdc67a303d4c55c9d2f6d3ba00d54509dd1aca9f5855d6dad63662daa2a8"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ARA-Labs/ara-cli/releases/download/v0.1.5/ara-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1c622d689b19f5ab5cc8242a36631c0a0c78ba16a5c8618dc8a680bfc54697df"
+      url "https://github.com/ARA-Labs/ara-cli/releases/download/v0.1.6/ara-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "decbfdfe941d906bffc2f98aaf5f0007ce9809a8c61b66a71852a5d9b3aef612"
     end
   end
   license "MPL-2.0"
